@@ -14,7 +14,7 @@ int main(void)
 		int *ptr = arr;
 		for(int i=0; i <= size; i++)
 		{
-		printf("Array element %d: %d\n", i, *(ptr + i));
+		printf("Array element %d: %d\n", i, ptr[i]);
 		}
 	       	return 0;
 }
